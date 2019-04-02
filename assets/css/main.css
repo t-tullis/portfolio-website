@@ -1348,6 +1348,7 @@ input, select, textarea {
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						animation: slide .7s infinite;
 					}
 
 					#header nav ul li a:active {
@@ -1664,4 +1665,15 @@ input, select, textarea {
 	padding: .5rem .5rem; 
 	font-size: 1.2rem;
 	font-weight: bold;
+}
+
+/*--------------------------- CSS Animations ------------------------------*/
+@keyframes slide{
+  30%{
+    line-height: 1.75rem;
+  }
+  
+  90%{
+  	line-height: 3.75rem;
+  }
 }
